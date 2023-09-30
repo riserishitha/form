@@ -1,0 +1,35 @@
+#date{
+  position: relative;
+  left: 30px;
+}
+#name{
+  position: relative;
+  left: 95px;
+}
+#father {
+  position: relative;
+  left: 35px;
+}
+#mother {
+  position: relative;
+  left: 30px;
+}
+
+#email {
+  position: relative;
+  left: 100px;
+}
+
+#mn {
+  position: relative;
+  left: 24px;
+}
+#ta {
+  position: relative;
+  left: 172px;
+}
+
+#oc {
+  position: relative;
+  left: 100px;
+}

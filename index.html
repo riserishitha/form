@@ -1,0 +1,64 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="results.html" method="GET">
+      <label>NAME :</label>
+      <input type="text" name="Name" id="name" /> <br />
+      <br />
+      <div id="main">
+        <label for="date"> DATE OF BIRTH : </label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <br />
+      <label>FATHER NAME :</label>
+      <input type="text" name="Name" id="father" /> <br />
+      <br />
+      <label>MOTHER NAME :</label>
+      <input type="text" name="Name" id="mother" />
+      <br />
+      <div>
+        <br />
+        GENDER:
+        <input type="radio" name="gender" id="male" value="male" />Male
+        <input type="radio" name="color" id="female" value="female" />Female
+        <br />
+        <br />
+      </div>
+      <label for="">CASTE :</label>
+      <select name="caste" id="oc">
+        <option value="oc">OC</option>
+        <option value="bc">BC</option>
+        <option value="st">ST</option>
+        <option value="others">OTHERS</option>
+      </select>
+      <br />
+      <br />
+      <label for="email">EMAIL :</label>
+      <input type="email" name="email" id="email" required /> <br />
+      <br />
+      <label for=""> MOBILE NUMBER:</label>
+      <input type="text" name="Name" id="mn" />
+      <br />
+      <br />
+      EDUCATIONAL QUAQLIFICATION :
+      <textarea id="ta"></textarea>
+    </form>
+  </body>
+</html>
